@@ -109,7 +109,7 @@ cmake --build . --target install --config Release
 ```
 
 Скопируйте из `td/tdlib/bin` в `native/windows/` файл `tdjson.dll` и DLL
-зависимостей (`libcrypto-3-x64.dll`, `libssl-3-x64.dll`, `zlib1.dll`).
+зависимостей (`libcrypto-3-x64.dll`, `libssl-3-x64.dll` и `z.dll` или `zlib1.dll`, в зависимости от версии vcpkg).
 Они будут положены рядом с `.exe`.
 
 ### macOS
